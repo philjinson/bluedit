@@ -18,7 +18,6 @@ const loginWithGoogle = async () => {
     setIsLoading(true)
 
     try {
-        throw new Error()
         await signIn('google')
     } catch (error) {
         toast({
